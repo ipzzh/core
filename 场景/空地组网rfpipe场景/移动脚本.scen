@@ -1,0 +1,60 @@
+#
+# nodes: 4, max time: 27.000000, max x: 600.00, max y: 600.00
+# nominal range: 300.00 link bw: 54000000.00
+# pause: 30.00, min speed 1.50 max speed: 4.50
+
+
+$node_(2) set X_ 294.0
+$node_(2) set Y_ 450.0
+$node_(2) set Z_ 0.00
+
+$node_(3) set X_ 434.0
+$node_(3) set Y_ 384.0
+$node_(3) set Z_ 0.00
+
+$node_(4) set X_ 531.0
+$node_(4) set Y_ 265.0
+$node_(4) set Z_ 0.00
+
+$node_(5) set X_ 685.0
+$node_(5) set Y_ 203.0
+$node_(5) set Z_ 0.00
+
+$node_(6) set X_ 809.0
+$node_(6) set Y_ 327.0
+$node_(6) set Z_ 0.00
+
+$ns_ at 1.00 "$node_(2) setdest 294.0 450.0  25.0"
+$ns_ at 1.00 "$node_(3) setdest 434.0 384.0  26.0"
+$ns_ at 1.00 "$node_(4) setdest 531.0 265.0  27.0"
+$ns_ at 1.00 "$node_(5) setdest 685.0 203.0  28.0"
+$ns_ at 1.00 "$node_(6) setdest 809.0 327.0  29.0"
+
+$ns_ at 2.00 "$node_(2) setdest 350.0 500.0  25.0"
+$ns_ at 2.00 "$node_(3) setdest 500.0 400.0  26.0"
+$ns_ at 2.00 "$node_(4) setdest 550.0 300.0  27.0"
+$ns_ at 2.00 "$node_(5) setdest 700.0 300.0  28.0"
+$ns_ at 2.00 "$node_(6) setdest 900.0 450.0  29.0"
+
+$ns_ at 3.00 "$node_(2) setdest 500.0 500.0  25.0"
+$ns_ at 3.00 "$node_(3) setdest 600.0 500.0  26.0"
+$ns_ at 3.00 "$node_(4) setdest 600.0 400.0  27.0"
+$ns_ at 3.00 "$node_(5) setdest 800.0 400.0  28.0"
+$ns_ at 3.00 "$node_(6) setdest 1000.0 600.0  29.0"
+
+$ns_ at 4.00 "$node_(3) setdest 700.0 600.0  26.0"
+$ns_ at 4.00 "$node_(4) setdest 800.0 500.0  27.0"
+$ns_ at 4.00 "$node_(5) setdest 900.0 500.0  28.0"
+$ns_ at 4.00 "$node_(6) setdest 1100.0 500.0  29.0"
+
+$ns_ at 5.00 "$node_(3) setdest 500.0 500.0  26.0"
+$ns_ at 5.00 "$node_(4) setdest 700.0 400.0  27.0"
+$ns_ at 5.00 "$node_(5) setdest 800.0 400.0  28.0"
+$ns_ at 5.00 "$node_(6) setdest 1000.0 450.0  29.0"
+
+$ns_ at 6.00 "$node_(3) setdest 600.0 500.0  26.0"
+
+
+
+
+
